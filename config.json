@@ -1,0 +1,32 @@
+{
+  "proxy": "http://127.0.0.1:7897",
+  "sources": {
+    "reddit": [
+      "MachineLearning",
+      "singularity",
+      "artificial",
+      "LocalLLaMA",
+      "ChatGPT",
+      "OpenAI",
+      "technology",
+      "gadgets"
+    ],
+    "v2ex": [
+      "https://www.v2ex.com/feed/python.xml",
+      "https://www.v2ex.com/feed/share.xml"
+    ],
+    "hackernews": "https://hnrss.org/frontpage",
+    "github_trending": true,
+    "producthunt": "https://www.producthunt.com/feed"
+  },
+  "xhs_style": "小红书风格：标题用感叹号+emoji吸引眼球，正文口语化、有网感、分段清晰、加适量emoji。200-400字。结尾加3-5个话题标签。内容要让人看完觉得'学到了'或'这个太酷了'。不要AI腔，要像真人在分享。",
+  "ollama_model": "gemma4:12b",
+  "agnesia_model": "agnes-image-2.1-flash",
+  "max_title_length": 30,
+  "output_dir": "output",
+  "images_dir": "images",
+  "chromadb": {
+    "path": "D:/path/to/chroma_db",
+    "embedding_model": "nomic-embed-text"
+  }
+}

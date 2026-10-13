@@ -1,0 +1,4 @@
+chromadb
+faiss-cpu
+numpy
+feedparser
